@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head lan="en">
+		<link rel="stylesheet" type="text/css" href="calculator.css">
+        <title>Calculator</title>
+		<script src="calculator.js"></script>
+    </head>
+	<body>
+		<div class="pad">
+			<input type="text" id="input-box" class="input" placeholder="Enter expression" size="5" onkeypress="myFunction(event)">
+			<button id="multiply" class="button operation" type="button" onclick="onOperationClickMultiply()">*</button>
+			<button id="divide" class="button operation" type="button" onclick="onOperationClickDivide()">/</button>
+			<button id="equate" class="button operation" type="button" onclick="onOperationClickEquate()">=</button>
+			<button id="clear" class="button operation" type="button" onclick="onOperationClickAc()">AC</button>
+			<button id="one" class="button number" type="button" onclick="onNumberClickOne()">1</button>
+			<button id="two" class="button number" type="button" onclick="onNumberClickTwo()">2</button>
+			<button id="three" class="button number" type="button" onclick="onNumberClickThree()">3</button>
+			<button id="minus" class="button operation" type="button" onclick="onOperationClickMinus()">-</button>
+			<br>
+			<button id="four" class="button number" type="button" onclick="onNumberClickFour()">4</button>
+			<button id="five" class="button number" type="button" onclick="onNumberClickFive()">5</button>
+			<button id="six" class="button number" type="button" onclick="onNumberClickSix()">6</button>
+			<button id="add" class="button operation" type="button" onclick="onOperationClickAdd()">+</button>
+			<br>
+			<button id="seven" class="button number" type="button" onclick="onNumberClickSeven()">7</button>
+			<button id="eight" class="button number" type="button" onclick="onNumberClickEight()">8</button>
+			<button id="nine" class="button number" type="button" onclick="onNumberClickNine()">9</button>
+			<button id="decimal" class="button operation" type="button" onclick="onOperationClickDecimal()">.</button>
+			<button id="zero" class="button number zero" type="button" onclick="onNumberClickZero()">0</button>
+			<button id="open" class="button operation" type="button" onclick="onOperationClickOpenBracket()">(</button>
+			<button id="clear" class="button number zero" type="button" onclick="onOperationClickBackspace()">BACKSPACE</button>
+			<button id="close" class="button operation" type="button" onclick="onOperationClickCloseBracket()">)</button>
+		</div>
+	</body>
+</html>
