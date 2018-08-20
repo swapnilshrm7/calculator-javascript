@@ -1,0 +1,37 @@
+body{
+	margin:0 auto;
+}
+.button{
+	padding:10px;
+	padding-left:25px;
+	padding-right:25px;
+	width:70px;
+	margin:0px;
+	border:1px solid #FFFFFF;
+}
+.input{
+	height:80px;
+	padding:0px;
+	padding-left:10px;
+	background-color:#393756;
+	font-size:60px;
+	color:#FFFFFF;
+}
+.pad{
+	width:300px;
+	padding:0px;
+	background-color:RGBA(0,0,0,0.7);
+}
+.number{
+	background-color:#574D99;
+	color:#FFFFFF;
+	font-size:30px;
+}
+.zero{
+	width:218px;
+}
+.operation{
+	font-size:30px;
+	background-color:#6B82F2;
+	color:#FFFFFF;
+}
